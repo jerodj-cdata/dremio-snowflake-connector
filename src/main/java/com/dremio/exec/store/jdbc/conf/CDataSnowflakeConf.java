@@ -19,9 +19,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.google.common.annotations.VisibleForTesting;
 import io.protostuff.Tag;
 
-@SourceType(value = "SnowflakeARP", label = "Snowflake",uiConfig = "snowflake-layout.json")
-public class SnowflakeConf extends AbstractArpConf<SnowflakeConf> {
-  private static final String ARP_FILENAME = "arp/implementation/snowflake-arp.yaml";
+@SourceType(value = "SnowflakeARP", label = "CData Snowflake",uiConfig = "CDatasnowflake-layout.json")
+public class CDataSnowflakeConf extends AbstractArpConf<CDataSnowflakeConf> {
+  private static final String ARP_FILENAME = "arp/implementation/CDatasnowflake-arp.yaml";
   private static final ArpDialect ARP_DIALECT =
       AbstractArpConf.loadArpFile(ARP_FILENAME, (ArpDialect::new));
   private static final String DRIVER = "cdata.jdbc.snowflake.SnowflakeDriver";
