@@ -10,7 +10,7 @@
         "isGeneral": true,
         "sections": [
           {
-            "name": "Snowflake Source",
+            "name": "CData Snowflake Source",
             "layout": "row",
             "elements": [
                 {
